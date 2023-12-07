@@ -1,0 +1,276 @@
+@charset "UTF-8";
+body {
+  width: 785px;
+  height: 2046px;
+  margin: 0;
+  box-sizing: border-box;
+  border: 1PX solid black;
+  background-color: antiquewhite;
+  position: relative;
+}
+
+.area {
+  width: 662px;
+  margin-left: 62px;
+}
+
+.header {
+  height: 98px;
+  margin-top: 59px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 15pt;
+}
+.header .item {
+  width: 35px;
+  height: 34px;
+  align-content: space-around;
+  box-sizing: border-box;
+  margin: 15px;
+  margin-right: 10px;
+}
+.header .item .blackLine {
+  width: 34px;
+  align-content: center;
+  border-top: 5PX solid black;
+  border-radius: 20%;
+}
+.header .item .blackLine1 {
+  width: 34px;
+  align-content: center;
+  border-top: 5PX solid black;
+  margin-top: 10px;
+  border-radius: 20%;
+}
+.header .pinkButton {
+  width: 98px;
+  height: 98px;
+  position: relative;
+  transition: 1s;
+}
+.header .pinkButton:active {
+  width: 150px;
+  height: 150px;
+  background-color: aqua;
+}
+.header .pinkButton::after {
+  content: "";
+  width: 98px;
+  height: 98px;
+  position: absolute;
+  background-color: #E49E9E;
+}
+
+.second {
+  height: 300px;
+  margin-top: 68px;
+  display: flex;
+  justify-content: center;
+}
+.second .img1 {
+  width: 379px;
+  height: 300px;
+  background-size: 100% 100%;
+  background-image: url("./聖代.jpg");
+}
+.second .textLeft {
+  width: 261px;
+  height: 248px;
+  margin-right: 21px;
+}
+
+.third {
+  height: 317px;
+  margin-top: 57px;
+}
+.third .thirdTitle {
+  width: 100%;
+  height: 39px;
+  display: flex;
+  justify-content: center;
+}
+.third .thirdTitle h1 {
+  margin: 0%;
+  padding: 0%;
+}
+.third .thirdBox {
+  width: 100% px;
+  height: 278px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.third .thirdBox input {
+  width: 140px;
+  height: 42px;
+  background-color: #E49E9E;
+  color: white;
+  font-size: 18px;
+  margin-bottom: 14px;
+}
+.third .thirdBox .thirdBox1 {
+  width: 196px;
+  height: 242px;
+  position: relative;
+  background-size: 100% 100%;
+  background-image: url(./舒福蕾夾心.jpg);
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.third .thirdBox .thirdBox2 {
+  width: 196px;
+  height: 242px;
+  position: relative;
+  background-size: 100% 100%;
+  background-image: url(./草莓塔.jpg);
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.third .thirdBox .thirdBox3 {
+  width: 196px;
+  height: 242px;
+  position: relative;
+  background-size: 100% 100%;
+  background-image: url(./蛋糕.jpg);
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.four {
+  height: 0px;
+  margin-top: 57px;
+}
+
+.five {
+  height: 395px;
+  margin-top: 40px;
+}
+.five .fiveTitle {
+  width: 100%;
+  height: 39px;
+  display: flex;
+  justify-content: center;
+}
+.five .fiveTitle h1 {
+  margin: 0%;
+  padding: 0%;
+}
+.five .fiveBox {
+  width: 100% px;
+  height: 264px;
+  margin-top: 22px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.five .fiveBox input {
+  width: 90px;
+  height: 26px;
+  background-color: #343434;
+  color: white;
+  font-size: 14px;
+  margin-top: 12px;
+  margin-left: 17px;
+}
+.five .fiveBox p {
+  width: 155px;
+  height: 65px;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  margin-left: 17PX;
+  margin-top: 142PX;
+}
+.five .fiveBox .fiveBox1 {
+  width: 196px;
+  height: 264px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: white;
+  background-image: url(./布丁.jpg);
+  box-shadow: 3px 3px 9px DarkGray;
+}
+.five .fiveBox .fiveBox2 {
+  width: 196px;
+  height: 264px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: white;
+  background-image: url(./草莓蛋糕多.jpg);
+  box-shadow: 3px 3px 9px DarkGray;
+}
+.five .fiveBox .fiveBox3 {
+  width: 196px;
+  height: 264px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: white;
+  background-image: url(./多種甜品.jpg);
+  box-shadow: 3px 3px 9px DarkGray;
+}
+.five .fiveButton {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.five .fiveButton input {
+  width: 124.4px;
+  height: 36px;
+  background-color: #E49E9E;
+  color: white;
+}
+
+.lastSecond {
+  height: 370PX;
+  margin-top: 77px;
+  display: flex;
+}
+.lastSecond .lastBox {
+  width: 402px;
+  height: 370px;
+  background-color: #E49E9E;
+}
+.lastSecond img {
+  width: 405px;
+  height: 267PX;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin-top: 47px;
+  margin-left: 62px;
+}
+.lastSecond .lastBox1 {
+  width: 220px;
+  height: 267px;
+  background-color: #E49E9E;
+  margin-left: 102px;
+  margin-top: 47px;
+}
+.lastSecond .lastBox1 h1 {
+  text-align: center;
+  margin: 0;
+  margin-top: 32px;
+}
+.lastSecond .lastBox1 p {
+  width: 155px;
+  height: 169px;
+  margin-left: 33px;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 79px;
+  background-color: #E49E9E;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer p {
+  margin: 0;
+}/*# sourceMappingURL=index.css.map */
